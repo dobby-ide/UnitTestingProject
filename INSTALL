@@ -1,0 +1,16 @@
+#Install Instructions:
+##
+##Compiling the program:
+## javac Slot.java Tokens.java User.java Main.java
+## Running the program:
+## java Main.java
+## Compiling the tests:
+## javac -cp ".;hamcrest-core-1.3.jar;junit-4.12.jar;cpsuite-1.2.6.jar"
+## SlotTest.java TokensTest.java TestRunner.java TestSuite.java
+## Running the tests altogether:
+## java -cp ".;hamcrest-core-1.3.jar;junit-4.12.jar;cpsuite-1.2.6.jar" \
+##      org.junit.runner.JUnitCore \
+##      TestSuite
+## instead of TestSuite each Test class can run separately,
+## like TokensTest or SlotTest
+
